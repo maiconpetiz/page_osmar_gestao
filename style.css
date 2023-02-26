@@ -14,20 +14,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: darkgray;
-  
+  border-bottom: 0.5px solid white;
 }
 
 .logo {
   position: relative;
   max-width: 150px;
 }
+.navigation {
+}
 
 .navigation ul {
-  
   position: relative;
   display: flex;
-  align-items: right;
 }
 
 .navigation li {
@@ -41,4 +40,5 @@ header {
   font-weight: 500;
   font-size: 20px;
   margin-left: 100px;
+  font-family: helvetica;
 }
