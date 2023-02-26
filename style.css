@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+header {
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkgray;
+  
+}
+
+.logo {
+  position: relative;
+  max-width: 150px;
+}
+
+.navigation ul {
+  
+  position: relative;
+  display: flex;
+  align-items: right;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 100px;
+}
