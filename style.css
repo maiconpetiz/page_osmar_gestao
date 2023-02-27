@@ -34,7 +34,7 @@ header {
 }
 
 .navigation li a {
-  color: white;
+  color: #C9C9C9;
   display: inline-flex;
   text-decoration: none;
   font-weight: 500;
@@ -50,7 +50,7 @@ header {
         0 0 0.2em #87F;
 }
 
-.container {
+.inicio {
   position: relative;
   display: flex;
   width: 90%;
@@ -58,6 +58,7 @@ header {
   background-color: rgba(92, 141, 182, 0.2);
   margin: auto;
   border-radius: 20pt;
+  margin-bottom: 50px;
 }
 
 .image {
@@ -84,7 +85,6 @@ header {
 .text h2 {
   display: block;
   width: 100%;
-  color: white;
   font-size: 60pt;
   padding: 20px;
   text-align: center;
@@ -97,10 +97,67 @@ header {
 .text p {
   display: block;
   width: 100%;
-  color: white;
+  color: #C9C9C9;
   font-size: 22pt;
   padding: 20px;
   line-height: 1.5;
   text-align: center;
+}
+
+.sobre {
+  display: flex;
+  width: 90%;
+  height: 95vh;
+  margin: auto;
+  background-color: rgba(203, 203, 203, 0.2);
+  border-radius: 20pt;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-sobre {
+  display: block;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+.text-sobre h2 {
+  color: #85E3E7;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 30px;
+}
+
+.sobre p {
+  width: 80%;
+  margin: auto;
+  display: block;
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-display: justify;
+}
+
+.valores-container {
+  display: inline-block;
+}
+
+.valores-container div {
+  display: inline-block;
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  align-self: center;
+}
+
+.valores h2 {
+  font-size: 25px;
+  margin-bottom: 5px;
   
+}
+
+.valores p {
+  font-size: 15px;
 }
